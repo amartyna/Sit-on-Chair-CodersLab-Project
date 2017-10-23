@@ -1,0 +1,53 @@
+.slider {
+  max-height: 400px;
+  background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 4%, rgba(209,209,209,1) 98%, rgba(226,226,226,1) 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+
+.slider_previous, .slider_next {
+  font-size: 72px;
+  margin: 20px;
+  color: $color-main;
+    a:link, a:visited {
+      text-decoration: none;
+      color: $color-main;
+    }
+    a:hover, a:active {
+    text-decoration: none;
+    color: $color-hover;
+    }
+
+}
+
+.slider_text {
+  text-align: center;
+    h3 {
+      font-size: 28px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 50px;
+        span {
+          color: $color-main;
+        }
+    }
+}
+
+.slider_button {
+  color: white;
+  text-transform: uppercase;
+  background-color: $color-main;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  width: 200px;
+  height: 40px;
+  margin-top: 50px;
+    &:hover {
+      background-color: $color-hover;
+    }
+}

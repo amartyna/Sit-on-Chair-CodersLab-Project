@@ -1,0 +1,235 @@
+.prices {
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F1F1F1;
+  padding-bottom: 50px;
+}
+
+.prices_header {
+  min-height: 50px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  border-bottom: 4px solid $color-main;
+  margin-left: 50px;
+}
+
+.prices_boxes {
+  height: 400px;
+  display: flex;
+  margin-top: 50px;
+}
+
+.prices_boxes_box-1 {
+  width: 250px;
+  height: 400px;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background-color: #F9F9F9;
+
+  .prices_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+    h4 {
+      text-transform: uppercase;
+      color: $color-main;
+      font-size: 22px;
+    }
+  }
+
+  .prices_button {
+    justify-content: center;
+    display: flex;
+
+    .join {
+      width: 140px;
+      height: 40px;
+      color: white;
+      text-transform: uppercase;
+      background-color: $color-main;
+      border: none;
+      border-radius: 5px;
+      align-self: center;
+      margin-top: 50px;
+
+      &:hover {
+        background-color: $color-hover;
+      }
+    }
+  }
+
+  .prices_details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+
+    p {
+      background-color: #E3E3E3;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: center;
+    }
+
+    span {
+      background-color: #F1F1F1;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: center;
+    }
+  }
+}
+
+.prices_circle-1 {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -45px 0 0 87px;
+  border: 1px solid gray;
+
+  .small_circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: darkgray;
+  }
+}
+
+.prices_price {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  justify-content: center;
+  color: gray;
+  font-weight: 700;
+  margin-top: 30px;
+
+  p {
+    font-size: 30px;
+  }
+
+  sup {
+    font-size: 50%;
+  }
+}
+
+.prices_boxes_box-2 {
+  width: 250px;
+  height: 400px;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid $color-main;
+  background-color: $color-main;
+
+  .prices_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+    h4 {
+      text-transform: uppercase;
+      color: white;
+      font-size: 22px;
+    }
+  }
+
+  .prices_button {
+    justify-content: center;
+    display: flex;
+
+    .join {
+      width: 140px;
+      height: 40px;
+      color: white;
+      text-transform: uppercase;
+      background-color: #E3E3E3;
+      border: none;
+      border-radius: 5px;
+      align-self: center;
+      margin-top: 25px;
+
+      &:hover {
+        background-color: darkgray;
+      }
+    }
+  }
+
+  .prices_circle-2 {
+    width: 70px;
+    height: 70px;
+    background-color: $color-main;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -45px 0 0 87px;
+    border: 1px solid $color-main;
+
+    .small_circle {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: white;
+    }
+  }
+
+  .prices_details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+
+    p {
+      background-color: #F1F1F1;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: center;
+    }
+
+    span {
+      background-color: #E3E3E3;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: center;
+    }
+  }
+}
+
+.prices_button-1 {
+  justify-content: center;
+  display: flex;
+
+  .join {
+    width: 140px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    background-color: $color-main;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+
+    &:hover {
+      background-color: $color-hover;
+    }
+  }
+}
